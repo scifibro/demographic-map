@@ -1,3 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+
+
+<!-- All areas are listed in the line below. You can use this list in your script. -->
+          <!--{id:"KZ-AKM"},{id:"KZ-AKT"},{id:"KZ-ALM"},{id:"KZ-ATY"},{id:"KZ-KAR"},{id:"KZ-KUS"},{id:"KZ-KZY"},{id:"KZ-MAN"},{id:"KZ-PAV"},{id:"KZ-SEV"},{id:"KZ-VOS"},{id:"KZ-YUZ"},{id:"KZ-ZAP"},{id:"KZ-ZHA"},{id:"KZ-AS"}-->
