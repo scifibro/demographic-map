@@ -3,12 +3,10 @@ import  SVGMap  from './SVGMap';
 import { getLocationName } from './utils';
 import Kazakhstan from "./Kazakhstan";
 import './styles.css';
-import Tabs from '@material-ui/core/Tabs';
-import AppBar from '@material-ui/core/AppBar';
-import Tab from '@material-ui/core/Tab';
 import Addition from './components/Addition'	
 import Scale from './components/Scale';
 import Kazakhstan1 from './Kazakhstan1';
+import SubTabs from './components/Subtabs';
 
 
 
@@ -57,18 +55,11 @@ class TooltipMap extends React.Component {
 				<h2 className="map-title">
 					Demographic Map of Kazakhstan
 				</h2>
-                <div className = 'selector'>
-					<AppBar position="static">
-					<Tabs >
-						<Tab label="Плотность населения  и этнический состав населения" data-id="11" data-rate ="ethnic"  />
-						<Tab label="Процессы урбанизация населения" data-id='12' data-rate ="urban" />
-						<Tab label="Поло-возрастная структура населения" data-id='13' data-rate ="age" />
-						<Tab label="Воспроизводство населения" data-id='14' data-rate ="born" />
-						<Tab label="Миграционные процессы населения" data-id ='15' data-rate ="migration" />
-					</Tabs>
-				    </AppBar>
+                
+					
+				<SubTabs/>
 				  
-				</div>
+				
 				<div className = 'sub-selector'>
 
 				</div>
