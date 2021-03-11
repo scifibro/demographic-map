@@ -1,11 +1,12 @@
 
 .svg-map-kaz {
 	width: 100%;
-	height: auto;
 	stroke: rgb(210, 255, 255);
 	stroke-width: ;
 	stroke-linecap: round;
 	stroke-linejoin: round;
+	left: 10px;
+	height: auto;
 }
 
 .location{

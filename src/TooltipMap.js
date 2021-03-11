@@ -6,7 +6,9 @@ import './styles.css';
 import Tabs from '@material-ui/core/Tabs';
 import AppBar from '@material-ui/core/AppBar';
 import Tab from '@material-ui/core/Tab';
-
+import Addition from './components/Addition'	
+import Scale from './components/Scale';
+import Kazakhstan1 from './Kazakhstan1';
 
 
 
@@ -70,10 +72,10 @@ class TooltipMap extends React.Component {
 				<div className = 'sub-selector'>
 
 				</div>
-				<div className = 'map'>
+				<div className = 'map' styles = {{height:'1000px'}}>
 					<SVGMap
 					    className = 'svg-map-kaz'
-						map={Kazakhstan}
+						map={Kazakhstan1}
 						locationClassName={this.getLocationClassName}
 						onLocationMouseOver={this.handleLocationMouseOver}
 						onLocationMouseOut={this.handleLocationMouseOut}
@@ -82,6 +84,8 @@ class TooltipMap extends React.Component {
 						{this.state.pointedLocation}
 					</div>
 				</div>
+				<div><Scale/></div>
+				<div className = 'addition'><Addition/></div>
 			</article>
 		);
 	}
