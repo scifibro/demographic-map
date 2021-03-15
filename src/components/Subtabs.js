@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Tabs } from "react-tabify";
 import  SVGMap  from '../SVGMap';
-import Kazakhstan from "../Kazakhstan";
+import Kazakhstan from "../SVG-files/Kazakhstan";
 
 const styles = {
   fontFamily: "sans-serif",

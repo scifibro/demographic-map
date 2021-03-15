@@ -33,7 +33,7 @@ function SVGMap(props) {
 						onKeyDown={props.onLocationKeyDown}
 						onFocus={props.onLocationFocus}
 						onBlur={props.onLocationBlur}
-						key={location.id}
+					
 					/>
 				);
 			})}
@@ -49,7 +49,7 @@ SVGMap.propTypes = {
 		locations: PropTypes.arrayOf(
 			PropTypes.shape({
 				path: PropTypes.string.isRequired,
-				id: PropTypes.string.isRequired,
+				id: PropTypes.number.isRequired,
 				name: PropTypes.string
 			})
 		).isRequired,

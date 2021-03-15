@@ -1,7 +1,7 @@
 import React from 'react';
 import  SVGMap  from './SVGMap';
 import { getLocationName } from './utils';
-import Kazakhstan from "./Kazakhstan";
+import Kazakhstan from "./SVG-files/Kazakhstan";
 import './styles.css';
 import Addition from './components/Addition'	
 import Scale from './components/Scale';
@@ -34,7 +34,9 @@ class TooltipMap extends React.Component {
 	handleLocationMouseOut() {
 		this.setState({ pointedLocation: null, tooltipStyle: { display: 'none' } });
 	}
-
+    handleOnclick(){
+		// TO DO  pop up  table
+	}
 	handleLocationMouseMove(event) {
 		const tooltipStyle = {
 			display: 'block',

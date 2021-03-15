@@ -1,0 +1,78 @@
+{
+  
+  "1999":{
+    "density-ethno":{
+        
+        "density":{},
+        "density-without":{},
+        "kazakhs":{},
+        "non-kazakhs":{}
+    },
+    
+    "urbanization":{
+        "citizen":{},
+        "kazakhs-citizen":{},
+        "non-kazakhs-citizen":{}
+        
+    },
+    
+    "age-gender":{
+        "childs":{},
+        "employable":{},
+        "pensioner":{}
+        
+    },
+    "population-reproduction":{
+        "infant-death":{},
+        "natural-growth":{},
+        "fertility":{},
+        "death-rate":{},
+        "total-fertility-rate":{}
+    },
+    "migration":{
+        "migration-balance":{},
+        "intensity-international-migration":{}
+        
+    
+    }
+
+  },
+  
+  "2009":{
+    "density-ethno":{
+        
+        "density":{},
+        "density-without":{},
+        "kazakhs":{},
+        "non-kazakhs":{}
+    },
+    
+    "urbanization":{
+        "citizen":{},
+        "kazakhs-citizen":{},
+        "non-kazakhs-citizen":{}
+        
+    },
+    
+    "age-gender":{
+        "childs":{},
+        "employable":{},
+        "pensioner":{}
+        
+    },
+    "population-reproduction":{
+        "infant-death":{},
+        "natural-growth":{},
+        "fertility":{},
+        "death-rate":{},
+        "total-fertility-rate":{}
+    },
+    "migration":{
+        "migration-balance":{},
+        "intensity-international-migration":{}
+        
+    
+    }
+
+  }
+}
